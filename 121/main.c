@@ -66,6 +66,6 @@ int main(int argc, char** argv) {
   for (i = 0; i < rounds / 2; i++) {
     neverTellMeTheOdds += statTriangle[rounds - 1][i];
   }
-  printf("Odds of winning: %10.9f\n", neverTellMeTheOdds);
+  printf("Odds of winning: %20.19f\n", neverTellMeTheOdds);
   printf("Maximum prize pool to not expect loss: %2.0f\n", ceil(1.0/neverTellMeTheOdds) - 1);
 }

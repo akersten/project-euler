@@ -1,3 +1,5 @@
+[deprecated due to Project Euler compromoise.]
+
 project-euler
 =============
 
